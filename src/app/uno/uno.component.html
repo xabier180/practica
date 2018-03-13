@@ -1,0 +1,9 @@
+<p>
+  COMPONENTE 1
+</p>
+
+<input type="text" [(ngModel)]="id"> <button (click)="cargarTareas()">Consultar</button>
+
+<li *ngFor="let todo of todos">
+  {{todo.title}}
+</li>
